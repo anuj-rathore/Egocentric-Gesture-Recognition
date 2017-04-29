@@ -1,0 +1,6 @@
+int frame_width=   cap.get(CV_CAP_PROP_FRAME_WIDTH);
+        int frame_height=   cap.get(CV_CAP_PROP_FRAME_HEIGHT);
+        VideoWriter video(root+"out.avi",CV_FOURCC('P','I','M','1'),30, Size(frame_width,frame_height),true);
+
+
+video.write
